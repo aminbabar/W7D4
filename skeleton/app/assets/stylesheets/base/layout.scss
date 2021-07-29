@@ -17,7 +17,22 @@ ul {
 	align-items: center;
 }
 
+li {
+	// font-family: 'Times New Roman', Times, serif;
+	font-family: nyt-franklin, helvetica, arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: bold;
+}
 
+.non-blue-buttons{
+	padding: 5px;
+}
+
+.non-blue-buttons:hover{
+	background-color: $lightest-gray;
+	// background-color: red;
+}
 
 body {
 	// ...
@@ -41,14 +56,17 @@ button {
 	// text-align:
 }
 
-button:hover {
-	background-color: grey;
+.right-nav .button:hover {
+	background-color: #3e698b;
+
 	// border-color:
 }
 
-.right-nav button{
-	background-color: #3e698b;
-	border-radius: 5px;
+.right-nav .button{
+	background-color: #6A8AA1;
+	border-radius: 2px;
+	padding: 5px;
+	margin: 3px;
 }
 
 /*
