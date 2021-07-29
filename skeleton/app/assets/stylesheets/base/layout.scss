@@ -1,13 +1,5 @@
 /* Define application-wide selectors here!*/
 
-.language-nav a {
-	text-decoration: none;
-}
-
-.language-nav a:hover {
-	text-decoration: underline;
-}
-
 .main-nav {
 	display: flex;
 	justify-content: space-between;
@@ -25,7 +17,7 @@ ul {
 	align-items: center;
 }
 
-li {
+.main-nav li{
 	// font-family: 'Times New Roman', Times, serif;
 	font-family: nyt-franklin, helvetica, arial, sans-serif;
 	text-transform: uppercase;
