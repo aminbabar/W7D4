@@ -1,1 +1,15 @@
 // Use the gear_dropdown.png screenshot as a style guide
+
+.hidden {
+    // display: none;
+}
+
+.gear-dropdown:hover {
+    display: block;
+    position: fixed;
+    // background-color: red;
+}
+
+#gear-dropdown li{
+    position: relative;
+}
