@@ -1,5 +1,13 @@
 /* Define application-wide selectors here!*/
 
+.language-nav a {
+	text-decoration: none;
+}
+
+.language-nav a:hover {
+	text-decoration: underline;
+}
+
 .main-nav {
 	display: flex;
 	justify-content: space-between;
@@ -33,6 +41,11 @@ li {
 	background-color: $lightest-gray;
 	// background-color: red;
 }
+
+.fas, .fa-cog {
+	font-size: 12px;
+}
+
 
 body {
 	// ...
