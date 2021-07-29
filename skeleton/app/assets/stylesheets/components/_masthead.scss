@@ -99,3 +99,17 @@
 .masthead a:hover {
 	text-decoration: underline;
 }
+
+.masthead-style {
+	font-family: $sans-serif;
+	font-size: 11px;
+}
+
+.masthead-links li:first-child {
+	padding-right: 8px;
+}
+
+.aat-style {
+	// font-size: ;
+	font-family: 'chomsky';
+}
