@@ -1,0 +1,19 @@
+.sections_nav{
+    display: flex;
+    justify-content: center;
+}
+
+.sections_nav li{
+    margin: 8px;
+}
+
+.sections_nav li:hover{
+    background-color: lightgrey;
+    
+}
+
+.sections_nav li:last-child a{
+    text-transform: uppercase;
+    font-size: 8px;
+    text-decoration: underline;
+}
