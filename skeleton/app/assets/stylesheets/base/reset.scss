@@ -64,11 +64,13 @@ button {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  box-shadow: none;
 }
 
 button,
 input[type="submit"] {
   cursor: pointer;
+  box-shadow: none;
 }
 
 /* Clearfix */

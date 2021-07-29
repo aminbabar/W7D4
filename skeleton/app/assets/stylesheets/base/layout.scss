@@ -1,9 +1,23 @@
 /* Define application-wide selectors here!*/
 
+.main-nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+
 html {
 	position: relative;
 	height: 100%;
 }
+
+ul {
+	// background-color: lightcoral;
+	display: flex;
+	align-items: center;
+}
+
+
 
 body {
 	// ...
@@ -28,8 +42,13 @@ button {
 }
 
 button:hover {
-	// background-color:
+	background-color: grey;
 	// border-color:
+}
+
+.right-nav button{
+	background-color: #3e698b;
+	border-radius: 5px;
 }
 
 /*
